@@ -28,7 +28,7 @@ def test_demurrage_calulate_task(
         ):
  
     config = copy.copy(load_config)
-    config.add(str(default_chain_spec), 'CIC_CHAIN_SPEC', exists_ok=True)
+    config.add(str(default_chain_spec), 'CHAIN_SPEC', exists_ok=True)
     config.add(demurrage_token_symbol, 'CIC_DEFAULT_TOKEN_SYMBOL', exists_ok=True)
     aux_setup(eth_rpc, load_config, sender_address=contract_roles['CONTRACT_DEPLOYER'])
 
