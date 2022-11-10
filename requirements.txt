@@ -1,4 +1,4 @@
-celery==4.4.7
+celery==5.2.2
 erc20-demurrage-token~=0.1.0
 cic-eth-registry~=0.6.9
 chainlib~=0.1.0
